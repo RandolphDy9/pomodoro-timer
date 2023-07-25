@@ -1,0 +1,46 @@
+body {
+  background-color: #C5DFF8;
+  color: #4A55A2;
+}
+
+#timer-container {
+  height: 100vh;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#content {
+  padding: 2rem;
+  margin: 1rem 0;
+  border: 2px solid #7895CB;
+  border-radius: 20px;
+  width: 500px;
+}
+
+#title,
+#timer-label,
+#time-left {
+  font-size: 50px;
+}
+
+#start_stop,
+#reset,
+#session-increment,
+#session-decrement,
+#break-increment,
+#break-decrement {
+  cursor: pointer;
+}
+
+#session-increment,
+#session-decrement,
+#break-increment,
+#break-decrement {
+  font-size: 23px;
+  margin: auto 0;
+}
+
+#start_stop:hover,
+#reset:hover {
+  transform: scale(1.2);
+}
