@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 body {
-  background-color: #C5DFF8;
-  color: #4A55A2;
+  background-color: #EEE2DE;
+  color: #164B60;
+  font-family: 'Poppins', sans-serif;
 }
 
 #timer-container {
@@ -12,7 +15,7 @@ body {
 #content {
   padding: 2rem;
   margin: 1rem 0;
-  border: 2px solid #7895CB;
+  border: 2px solid #164B60;
   border-radius: 20px;
   width: 500px;
 }
@@ -20,7 +23,9 @@ body {
 #title,
 #timer-label,
 #time-left {
-  font-size: 50px;
+  font-size: 46px;
+  color: #FF2171;
+  font-weight: 700;
 }
 
 #start_stop,
@@ -43,4 +48,10 @@ body {
 #start_stop:hover,
 #reset:hover {
   transform: scale(1.2);
+}
+
+p {
+  color: #435B66;
+  text-align: center;
+  font-size: 14px;
 }
